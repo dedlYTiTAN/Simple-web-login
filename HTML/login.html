@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <link
+            rel="stylesheet"
+            href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+            integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+            crossorigin="anonymous"
+        />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Log in</title>
+    <link rel="shortcut icon" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" type="image/x-icon">
+    <link rel="shortcut icon" href="style.css">
+    <!-- external css -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="./public/js/validation.min.js"></script>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="container">
+            <div class="col-xl-10 col-lg-11 mx-auto login-container">
+                <div class="row">
+                    <div class="col-lg-5 col-md-6 no-padding">
+                        <div class="login-box">
+                            <h2><span class="text_1_login">Welcome </span></h2>
+                            <div class="login-row row no-margin">
+                                <label for="email">Email Address</label>
+                                <input type="email" name="email" id="email" class="form-control form-control-sm">
+                            </div>
+                            <div class="login-row row no-margin">
+                                <label for="password">Password</label>
+                                <input type="password" name="user_password" id="user_password" class="form-control form-control-sm">
+                            </div>
+                            <div class="login-row btnroo row no-margin">
+                                <input type="button"value="login" onclick="href="register.html"" id="submit" name="submit" class="form-control form-control-sm"style="background-color: skyblue">
+                            </div>
+                            <div class="login-row row no-margin">
+                                <div id="error"></div>
+                            </div>
+                            <div class="login-row donroo row no-margin">
+                                <p>Don't have an account?<a href="register.html">&nbsp;Register</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-7 col-md-6 img-box">
+                        <img src="./public/images/signup.svg" alt="">
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <script src="scripts/loginProcess.js"></script>
+</body>
+</html>
